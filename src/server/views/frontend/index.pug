@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title React App
+  body    
+    div#root
+    script.      
+      console.log('#{isMobile}');
+      const initialState = {
+        device: {
+          isMobile:'#{isMobile}'
+        }
+      };
+      window.initialState = initialState;    
+    script(src="/vendor.bundle.js")
+    script(src="/main.bundle.js")
